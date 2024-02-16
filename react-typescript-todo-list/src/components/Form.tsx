@@ -1,5 +1,11 @@
 import React, {useState} from 'react'
 
+const addTodo = () => {
+  const newTask = {
+    
+  }
+}
+
 export const Form = ({addTodo}) => {
     const [value, setValue] = useState('');
 
